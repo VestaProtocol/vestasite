@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -40,6 +42,7 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,6 +86,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -99,4 +103,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
 }

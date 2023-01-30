@@ -15,7 +15,8 @@ export default function Home() {
         <title>Vesta Protocol</title>
         <meta name="description" content="Vesta Protocol - a next gen Cosmos VM" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/vesta.svg" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
       </Head>
       <main className={styles.main}>
 
@@ -37,9 +38,12 @@ export default function Home() {
         </div>
 
 
-
+        <footer>
+          <a className="poppins" rel="noreferrer" href="https://jackallabs.io" target="_blank" style={{"color": "#fea74d"}}>Jackal Labs 2023</a>
+        </footer>
 
       </main>
+      
     </>
   )
 }
